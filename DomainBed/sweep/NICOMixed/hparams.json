@@ -1,0 +1,9 @@
+{
+    "resnet18": true,
+    "no_pretrain": true,
+    "resnet_dropout": 0,
+    "unfreeze_resnet_bn": true,
+    "nonlinear_classifier": false,
+    "data_augmentation": true,
+    "data_augmentation_scheme": "jigen"
+}

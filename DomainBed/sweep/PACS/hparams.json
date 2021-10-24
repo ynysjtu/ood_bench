@@ -1,0 +1,10 @@
+{
+    "resnet18": true,
+    "pretrained_weight_path": "../pretrained_weights/resnet18-5c106cde.pth",
+    "unfreeze_resnet_bn": true,
+    "resnet_dropout": 0,
+    "nonlinear_classifier": false,
+    "data_augmentation": true,
+    "data_augmentation_scheme": "jigen",
+    "lr": 3e-5
+}
