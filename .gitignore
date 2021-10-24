@@ -2,7 +2,7 @@
 DomainBed/sweep/outputs/
 DomainBed/train_output/
 records/
-resnet18-5c106cde.pth
+*resnet18-5c106cde.pth
 
 # Jupyter notebook
 *.ipynb_checkpoints*

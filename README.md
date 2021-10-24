@@ -39,8 +39,8 @@ WILDS
 ```
 MNIST
 └── processed
-  ├── training.pt
-  └── test.pt
+    ├── training.pt
+    └── test.pt
 ```
 ```
 celeba
