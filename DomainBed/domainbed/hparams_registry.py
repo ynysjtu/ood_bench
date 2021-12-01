@@ -61,7 +61,7 @@ def _hparams(algorithm, dataset, random_seed):
 
     elif algorithm == "IRM":
         _hparam('irm_lambda', 1e2, lambda r: 10**r.uniform(-1, 5))
-        if dataset == 'CelebA_Blonde':
+        if dataset == 'CelebA_Blond':
             _hparam('irm_penalty_anneal_iters', 500,
                     lambda r: int(10**r.uniform(0, 3.5)))
         else:
@@ -86,7 +86,7 @@ def _hparams(algorithm, dataset, random_seed):
 
     elif algorithm == "VREx":
         _hparam('vrex_lambda', 1e1, lambda r: 10**r.uniform(-1, 5))
-        if dataset == 'CelebA_Blonde':
+        if dataset == 'CelebA_Blond':
             _hparam('vrex_penalty_anneal_iters', 500,
                     lambda r: int(10**r.uniform(0, 3.5)))
         else:
@@ -133,7 +133,7 @@ def _hparams(algorithm, dataset, random_seed):
         _hparam('batch_size', 8, lambda r: 8)
     elif dataset == 'DomainNet':
         _hparam('batch_size', 32, lambda r: int(2**r.uniform(3, 5)))
-    elif dataset == 'CelebA_Blonde':
+    elif dataset == 'CelebA_Blond':
         _hparam('batch_size', 48, lambda r: int(2**r.uniform(4.5, 6)))
     else:
         _hparam('batch_size', 32, lambda r: int(2**r.uniform(3, 5.5)))
