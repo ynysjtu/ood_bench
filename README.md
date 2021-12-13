@@ -54,13 +54,13 @@ celeba
 NICO
 ├── animal
 ├── vehicle
-└── mixed_split
+└── mixed_split_corrected
     ├── env_train1.csv
     ├── env_train2.csv
     ├── env_val.csv
     └── env_test.csv
 ```
-Note: the data split files of CelebA and NICO are already provided under `datasets`.
+Warning: a bug has been found in the split generating code for NICO. Please refrain from using the original version `mixed_split`. The correct split is now `mixed_split_corrected`. Corresponding experiment results will be updated to our paper later.
 
 ## Running the experiments
 To replicate the benchmark results, see the scripts under `DomainBed/sweep`.

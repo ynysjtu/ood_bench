@@ -586,7 +586,7 @@ class NICOMixed(MultipleDomainDataset):
                 env_transform = augment_transform
             else:
                 env_transform = transform
-            csv_file_path = os.path.join(f'{root}/NICO/mixed_split/env_{env_name}.csv')
+            csv_file_path = os.path.join(f'{root}/NICO/mixed_split_corrected/env_{env_name}.csv')
             self.datasets.append(NICOMixedEnvironment(f'{root}/NICO', csv_file_path, self.input_shape, env_transform))
         
         
