@@ -1,3 +1,6 @@
+# An up-to-date version including metrics computation codes is available at https://github.com/m-Just/OoD-Bench
+
+================================================================================================================================================
 # OoD-Bench
 This is the code repository of the paper [OoD-Bench: Benchmarking and Understanding Out-of-Distribution Generalization Datasets and Algorithms](https://arxiv.org/abs/2106.03721).
 Currently, this repository only contains the code (modified from the PyTorch suite
